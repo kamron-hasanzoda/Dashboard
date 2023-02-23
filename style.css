@@ -1,0 +1,68 @@
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0px 300px;
+}
+
+.dash {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.dash button {
+    border-radius: 15px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #007FFF;
+    border: 1px solid #007FFF;
+}
+
+.plans {
+    display: flex;
+    gap: 10px;
+}
+
+table {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+th {
+    text-align: start;
+}
+
+thead tr th {
+    color: gray;
+}
+
+.datetime {
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    width: 500px;
+    padding: 30px;
+    background-color: gray;
+}
+
+.appends {
+    width: 1100px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+
+.active {
+    color: skyblue;
+}
+
+.noactive {
+    color: black;
+}
